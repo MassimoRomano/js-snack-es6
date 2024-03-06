@@ -11,11 +11,31 @@ const zucchine = [
     { tipo: "Zucchina rampicante", lunghezza: 25, peso: 26 }
 ];
 
+const zucchinaCorta = []
+const zucchinaLunga = []
+
+zucchine.forEach(zucchina =>{
+    if(zucchina.lunghezza <= 15){
+        zucchinaCorta.push(zucchina)
+    }else{
+        zucchinaLunga.push(zucchina)
+    }
+})
+
+console.log(zucchinaCorta);
+console.log(zucchinaLunga);
 
 
-    let pesoZucchine = 0;
-    zucchine.forEach(zucchina => {
-        pesoZucchine += zucchina.peso;
-    });
+let pesoZucchinaCorta = 0;
+let pesoZucchinaLunga = 0;
 
-console.log(pesoZucchine);
+zucchinaCorta.forEach(zucchina => {
+    pesoZucchinaCorta += zucchina.peso;
+});
+
+zucchinaLunga.forEach(zucchina => {
+    pesoZucchinaLunga += zucchina.peso;
+});
+
+console.log('Peso zucchine lunghe;',pesoZucchinaLunga);
+console.log('Peso zucchine corte;',pesoZucchinaCorta);
