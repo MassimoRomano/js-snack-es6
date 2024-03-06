@@ -5,7 +5,7 @@ const zucchine = [
     { tipo: "Zucchina gialla", lunghezza: 13, peso: 12 },
     { tipo: "Zucchina bianca", lunghezza: 16, peso: 5 },
     { tipo: "Zucchina tonda", lunghezza: 10, peso: 75 },
-    { tipo: "Zucchina lunga di Napoli", lunghezza: "26", peso: 30 },
+    { tipo: "Zucchina lunga di Napoli", lunghezza: 26, peso: 30 },
     { tipo: "Zucchina costata", lunghezza: 19, peso: 25 },
     { tipo: "Zucchina bianca striata", lunghezza: 12, peso: 19 },
     { tipo: "Zucchina rampicante", lunghezza: 25, peso: 26 }
